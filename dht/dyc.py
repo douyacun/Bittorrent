@@ -42,7 +42,7 @@ BOOTSTRAP_NODES = (
 )
 
 
-class Maga(asyncio.DatagramProtocol):
+class DYC(asyncio.DatagramProtocol):
     def __init__(self, loop=None, bootstrap_nodes=BOOTSTRAP_NODES, interval=1):
         self.node_id = random_node_id()
         self.transport = None
