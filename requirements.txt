@@ -3,6 +3,7 @@ async-timeout==3.0.0
 attrs==18.1.0
 bencoder.pyx==1.2.1
 chardet==3.0.4
+configparser==3.5.0
 idna==2.7
 Maga==3.0.0
 multidict==4.3.1

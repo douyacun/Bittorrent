@@ -1,6 +1,27 @@
-# dht
+# dht 网络爬虫
 
-# /dht 构造dht网络, 捕获种子
+建议先了解 (BitTorrent DHT)[http://justjavac.com/other/2015/02/01/bittorrent-dht-protocol.html]
+
+# 支持
+- mysql
+- redis
+
+# 配置
+```cp .env.example .env```
+
+# 部署
+
+
+```git clone https://github.com/douyacun/Bittorrent```
+
+```cd Bittorrent```
+
+```virtualenv --no-site-packages venv```
+
+```pip install -r requirements.txt```
+
+```python main.py```
+
 
 # supervisor 配置
 /etc/supervisor/conf.d/dht.conf
