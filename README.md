@@ -1,6 +1,6 @@
 # dht 网络爬虫
 
-建议先了解 (BitTorrent DHT)[http://justjavac.com/other/2015/02/01/bittorrent-dht-protocol.html]
+建议先了解 [BitTorrent DHT](http://justjavac.com/other/2015/02/01/bittorrent-dht-protocol.html)
 
 # 支持
 - mysql
